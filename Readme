@@ -1,0 +1,30 @@
+1. Only change L2_student.c Put your code between: 
+	
+	//***Student_code_start*** 
+	//    Your code...
+	//    ...
+        //    ...
+	//***Student_code_end*****
+
+   Don't change other code.
+
+2. You need to write all function in L2_student.c
+
+3. Please make sure you have the latest version of "gcc"
+
+4. Compile with command line:
+	make tdm
+	make fdm
+
+5. Excute with command line.
+	./L2_ChEst_TDM_pilot_ofdm.exe 8 5000 2 0
+
+	8: Channel Tap. 5000 simulated block. 2: pilot insert rate 0: No perfect channel estimation
+	
+	./L2_ChEst_FDM_pilot_ofdm.exe 8 5000 16 lin 0
+
+	8: Channel Tap. 5000 simulated block. 16: number of pilot carriers 
+	lin: Interpolation method 0: No perfect channel estimation
+
+6. Plot your graph with any tools you like.
+
